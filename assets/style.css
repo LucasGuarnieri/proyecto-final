@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media(min-width: 480px){
+    body{
+    background-color:white;
+    border-radius: 20px;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(234, 234, 234);
+        margin: 10px;
+        height: 50px;
+        border-radius: 20px;
+    }
+
+    .navlink{
+        margin: 10px;
+    }
+    .navdesplegable{
+        background-color: rgb(234, 234, 234);
+        border-radius: 10px;
+    }
+    .lista {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+    
+    .lista li{
+        margin-right: 20px;
+        list-style: none;
+    
+    }
+    
+    .lista li a{
+        text-decoration: none;
+    }
+    .logo{
+        width: 111px;
+        height: 50px;
+        margin: -18px 5px 5px 2px;
+        padding: 10px;
+    }
+    
+    .h1principal{
+        font-size: 30px;
+        font-weight: bolder;
+        margin: 5px 0px 0px 0px;
+    }
+    
+    .pprincipal{
+        font-size: 15px;
+    }
+    .artprincipal{
+        display: flex;
+        grid-template-rows: 50%;
+        height: 300px;
+        border-radius: 20px;
+        margin: 10px;
+        color: white;
+        align-items: stretch;
+        justify-items: start;
+        align-content: space-evenly;
+        background-image: url('img/fondo-principal.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .contenidoartp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 20px;
+    }
+    
+    .boton{
+        height: 50px;
+        width: 150px;
+        background-color: white;
+        text-align: center; 
+        color: black;
+        border-radius: 5%;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .cultura{
+        margin: 10px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: beige;
+    }
+    
+    .sectionprimario{
+        margin: 10px;
+        width: auto;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(231, 230, 230);
+        flex-direction: column;
+        
+    }
+    
+    .h2secundario{
+        text-align: center;
+        margin: 5px 0px 22px 0px;
+        font-size: 40px;
+    }
+    
+    .sectionsecundario{
+        margin: 10px;
+        width: auto;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .articulocult{
+        display: flex;
+        height: 340px;
+        width: 143px;
+        text-align: center;
+        justify-content: space-around;
+        margin: 3px;
+        flex-direction: column;
+        border-radius: 20px;
+        background-color: white;
+    
+    }
+    .articulocult__img{
+    height: 20%;
+    width: auto;
+    position: relative;
+    top: 25px;
+    
+    }
+    
+    .articulocult__text{
+        width: auto;
+        text-align: center;
+        height: 70%;
+        margin: 2px 7px 2px 7px;
+    
+    
+    }
+    
+    .sectionprimariokpis{
+        margin: 10px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        
+    }
+
+    .sectionsecundariokpis{
+        margin: 10px -32px 05px -14px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .boxkpis{
+        display: flex;
+        height: 320px;
+        width: auto;
+        text-align: center;
+        background-color: rgb(244, 244, 244);
+        flex-direction: column; 
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .articulokpi__img{
+        top: -50px;
+        position: relative;
+        border-radius: 100%;
+        background-color: white;
+        }
+    
+    .h2kpis{
+        top: -40px;
+        position: relative;
+        font-size: 30px;
+        font-weight:bolder;
+    }
+    .articulokpi__text{
+        top: -40px;
+        position: relative;
+        text-align: center;
+        margin: 0px 20px 2px 20px;
+        font-size: 15px;
+    
+    }
+    
+    footer{
+        height: 250px;
+        width: auto;
+        margin-top: 20px;
+        background-color: rgb(57, 56, 56);
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .boxfooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 23px 9px 41px 22px;
+    width: 130px;
+    font-size: 12px;
+    }
+    
+    }
+
+@media(min-width: 1080px){
+body{
+background-color:white;
+border-radius: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(234, 234, 234);
+    margin: 10px;
+    height: 50px;
+    border-radius: 20px;
+}
+.navb{
+    background-color: rgb(234, 234, 234);
+    height: 30px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.lista li{
+    margin-right: 20px;
+    list-style: none;
+
+}
+
+.lista li a{
+    text-decoration: none;
+}
+.logo{
+    width: 111px;
+    height: 50px;
+    margin: 2px 5px 5px 2px;
+    padding: 10px;
+}
+
+.h1principal{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.artprincipal{
+    display: flex;
+    grid-template-rows: 50%;
+    height: 300px;
+    border-radius: 20px;
+    margin: 10px;
+    color: white;
+    align-items: stretch;
+    justify-items: start;
+    align-content: space-evenly;
+    background-image: url('img/fondo-principal.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.contenidoartp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.boton{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    text-align: center; 
+    color: black;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cultura{
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: beige;
+}
+
+.sectionprimario{
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(231, 230, 230);
+    flex-direction: column;
+    
+}
+
+.h2secundario{
+    text-align: center;
+    margin: 5px 0px 22px 0px;
+    font-size: 40px;
+}
+
+.sectionsecundario{
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.articulocult{
+    display: flex;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    justify-content: space-around;
+    margin: 30px;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+
+}
+.articulocult__img{
+height: 30%;
+position: relative;
+top: 25px;
+
+}
+
+.articulocult__text{
+    text-align: center;
+    height: 70%;
+    margin: 2px 7px 2px 7px;
+
+
+}
+
+.sectionprimariokpis{
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+.boxkpis{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+    flex-direction: column; 
+    border-radius: 10px;
+}
+.articulokpi__img{
+    top: -50px;
+    position: relative;
+    border-radius: 100%;
+    background-color: white;
+    }
+
+.h2kpis{
+    top: -40px;
+    position: relative;
+    font-size: 40px;
+    font-weight:bolder;
+}
+.articulokpi__text{
+    top: -40px;
+    position: relative;
+    text-align: center;
+    margin: 0px 20px 2px 20px;
+    font-size: 20px;
+
+}
+
+footer{
+    height: 250px;
+    width: auto;
+    margin-top: 20px;
+    background-color: rgb(57, 56, 56);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.boxfooter{
+display: flex;
+justify-content: space-evenly;
+margin: 40px;
+font-size: 15px;
+width: auto;
+}
+}
+
+
