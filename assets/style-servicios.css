@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+@media(min-width: 480px){
+    body{
+        background-color:white;
+        border-radius: 20px;
+        }
+
+    nav.nav {
+        z-index: 1000;
+    }
+    
+    nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(234, 234, 234);
+    margin: 10px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .navdesp{
+    display: flex;
+    margin: -3px 15px 10px 10px;
+    }
+
+    .navlink {
+    margin: 10px;
+    }
+
+    .navdesplegable {
+    background-color: rgb(234, 234, 234);
+    border-radius: 10px;
+    }
+
+    .lista {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 15px;
+    }
+
+    .lista li {
+    margin-right: 20px;
+    list-style: none;
+    }
+
+    .lista li a {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    }
+
+    .logo{
+    width: 111px;
+    height: 50px;
+    margin: -15px 5px 5px 2px;
+    padding: 10px;
+    }
+
+    .encabezado{
+        display: flex;
+        border-radius: 20px;
+        margin: 10px;
+        background-color: rgba(0, 0, 0, 0.847); 
+        height: 120px;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        color: white;
+        font-size: 15px;
+    }
+    .h2encabezado{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+
+    .sectionsecundario{
+        margin: 10px;
+        width: auto;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    .articuloserv{
+        display: flex;
+        height: 450px;
+        text-align: center;
+        justify-content: space-around;
+        margin: 7px;
+        border-radius: 20px;
+        background-color: rgb(233, 233, 233);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+    }
+    .imgservizquierda{
+        width: 30%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .imgservderecha{
+        width: 30%;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    .h2servicios{
+        font-style: italic;
+        font-size: 30px;
+        color: rgb(255, 115, 0);
+        text-decoration: underline;
+        font-size: 20px;
+    }
+
+    .h4servicios{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .articuloservizquierda__text{
+        display: flex;
+        width: 70%;
+        text-align: left;
+        height: 70%;
+        margin: 15px;
+        flex-direction: column;
+        font-size: 12px;
+
+
+    }
+    .articuloservderecha__text{
+        display: flex;
+        width: 70%;
+        text-align: right;
+        height: 70%;
+        margin: 15px;
+        flex-direction: column;
+        font-size: 12px;
+
+
+    }
+
+    footer{
+        height: 250px;
+        width: auto;
+        margin-top: 20px;
+        background-color: rgb(57, 56, 56);
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .boxfooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 23px 9px 41px 22px;
+    width: 130px;
+    font-size: 12px;
+    }
+    }
+
+@media(min-width: 1080px){
+    body{
+    background-color:white;
+    border-radius: 20px;
+    }
+
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(234, 234, 234);
+        margin: 10px;
+        height: 50px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .navdesp{
+        display: flex;
+        margin: -3px 15px 10px 10px;
+        }
+
+        .navlink {
+        margin: 10px;
+        }
+
+        .navdesplegable {
+        background-color: rgb(234, 234, 234);
+        border-radius: 10px;
+        }
+
+        .lista {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+        margin-top: 15px;
+        }
+
+        .lista li {
+        margin-right: 20px;
+        list-style: none;
+        }
+
+        .lista li a {
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+        }
+
+        .logo{
+            width: 111px;
+            height: 50px;
+            margin: -1px 5px 5px 2px;
+            padding: 10px;
+        }
+
+    .encabezado{
+        display: flex;
+        border-radius: 20px;
+        margin: 10px;
+        background-color: rgba(0, 0, 0, 0.847); 
+        height: 120px;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        color: white;
+    }
+    .h2encabezado{
+        font-weight: bold;
+    }
+
+
+    .sectionsecundario{
+        margin: 10px;
+        width: auto;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    .articuloserv{
+        display: flex;
+        height: 450px;
+        text-align: center;
+        justify-content: space-around;
+        margin: 7px;
+        border-radius: 20px;
+        background-color: rgb(233, 233, 233);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+    }
+    .imgservizquierda{
+        width: 40%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .imgservderecha{
+        width: 40%;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    .h2servicios{
+        font-style: italic;
+        font-size: 30px;
+        color: rgb(255, 115, 0);
+        text-decoration: underline;
+    }
+
+    .h4servicios{
+        font-weight: bold;
+    }
+    .articuloservizquierda__text{
+        width: 60%;
+        text-align: left;
+        height: 70%;
+        margin: 15px;
+        font-size: 15px;
+
+
+    }
+    .articuloservderecha__text{
+        width: 60%;
+        text-align: right;
+        height: 70%;
+        margin: 15px;
+        font-size: 15px;
+
+    }
+
+    footer{
+        height: 250px;
+        width: auto;
+        margin-top: 20px;
+        background-color: rgb(57, 56, 56);
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .boxfooter{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+    font-size: 15px;
+    width: auto;
+    }
+}
